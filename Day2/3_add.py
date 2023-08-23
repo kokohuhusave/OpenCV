@@ -19,7 +19,6 @@ dst5 = cv2.divide(src1, 10)
 print(dst5)
 print('---------')
 
-
 cv2.imshow('src1', src1)
 cv2.imshow('src2', src2)
 cv2.imshow('dst1', dst1)

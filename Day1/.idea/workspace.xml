@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e37624d1-a7b4-4aee-9339-b60471a0207c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Day4/1_adaptive.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day4/2_compare.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day4/3_translate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day4/4_resize.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day4/5_perspective.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day4/5_practice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day4/5_rotation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day4/6_homework.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day4/Day4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day4/namecard.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day4/pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day5/12_comvex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day5/Day5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day6/1_1_tesseract.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day6/1_tesseract.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day6/2_tesseract.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day6/Day6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day6/namecard.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/gpt bot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Day1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7_camera_in.py" beforeDir="false" afterPath="$PROJECT_DIR$/7_camera_in.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dog.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../Day4/dog.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day2/3_add.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Day2/3_add.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2TjFH0ywFWIG3q52I7y6Yso8LDW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/kdt/OpenCV/Day6",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="RunManager" selected="Python.7_1_hand">
+    <configuration name="7_1_hand" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Day1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7_1_hand.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="7_camera_in" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Day1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7_camera_in.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.7_1_hand" />
+        <item itemvalue="Python.7_camera_in" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e37624d1-a7b4-4aee-9339-b60471a0207c" name="Changes" comment="" />
+      <created>1691548492005</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691548492005</updated>
+    </task>
+    <servers />
+  </component>
+</project>

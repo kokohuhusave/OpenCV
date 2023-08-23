@@ -1,0 +1,39 @@
+위 코드는 'milkdrop.bmp' 이미지에서 외곽선을 검출한 후, 검출된 외곽선들을 랜덤한 색상으로 그려서 새로운 영상을 생성하는 코드입니다.
+
+1. 이미지 전처리:
+   ```python
+   _, img_bin = cv2.threshold(img, 0, 255, cv2.THRESH_OTSU)
+   ```
+   입력 이미지를 이진화합니다. `cv2.threshold()` 함수를 사용하여 오츠의 이진화 알고리즘을 적용합니다. 이진화된 결과는 `img_bin`에 저장됩니다.
+
+2. 외곽선 검출:
+   ```python
+   contours, _ = cv2.findContours(img_bin, cv2.RETR_LIST, cv2.CHAIN_APPROX_NONE)
+   ```
+   이진화된 이미지에서 외곽선을 검출합니다. `cv2.findContours()` 함수를 사용하여 외곽선을 검출하고, 검출된 외곽선은 `contours`에 저장됩니다. `cv2.RETR_LIST`는 모든 외곽선을 검출하도록 지정하며, `cv2.CHAIN_APPROX_NONE`은 모든 외곽선의 점을 반환하도록 지정합니다.
+
+3. 새로운 영상 생성:
+   ```python
+   h, w = img.shape[:2]
+   dst = np.zeros((h, w, 3), np.uint8)
+   ```
+   입력 이미지와 동일한 크기의 빈 새로운 이미지 `dst`를 생성합니다.
+
+4. 외곽선 그리기:
+   ```python
+   for i in range(len(contours)):
+       color = (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255))
+       cv2.drawContours(dst, contours, i, color, 2)
+   ```
+   랜덤한 색상으로 외곽선을 그립니다. `cv2.drawContours()` 함수를 사용하여 `dst` 이미지에 외곽선을 그리는데, `contours` 리스트에 저장된 외곽선 중 하나씩을 선택하여 그리게 됩니다. `color` 변수에 랜덤한 BGR 값(색상)을 지정하고, 두께를 2로 설정하여 외곽선을 그립니다.
+
+5. 결과 출력:
+   ```python
+   cv2.imshow('img', img)
+   cv2.imshow('img_bin', img_bin)
+   cv2.imshow('dst', dst)
+   cv2.waitKey()
+   ```
+   원본 이미지, 이진화된 이미지(`img_bin`), 외곽선이 그려진 새로운 이미지(`dst`)를 차례로 화면에 출력합니다. `cv2.waitKey()` 함수를 사용하여 키 입력을 기다리고, 아무 키나 누르면 창이 닫힙니다.
+
+이 코드를 실행하면 'milkdrop.bmp' 이미지에서 외곽선이 검출되고, 랜덤한 색상으로 그려진 새로운 영상이 생성됩니다. 외곽선이 뚜렷하게 표시되어 이미지 내의 객체 구분이 쉽게 되도록 처리된 것을 확인할 수 있습니다.
